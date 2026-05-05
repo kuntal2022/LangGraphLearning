@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API Keys / Secrets
+*.env
+.env.*
+secrets.py
+
+# Logs
+*.log
+logs/
+
+# LangGraph
+.langgraph/
+
+# Data/Models (optional - remove if you want to track these)
+*.csv
+*.parquet
+*.pkl
+data/
+models/
